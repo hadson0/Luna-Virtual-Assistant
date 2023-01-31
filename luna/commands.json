@@ -1,0 +1,50 @@
+[
+    {
+        "name": "open_client",
+        "regex": "^(abra|abrir|abre)\\s+spotify"
+    },
+    {
+        "name": "play_playlist",
+        "regex": "^(tocar|toque|toca) a? ?playlist\\s*(.*)"
+    },
+    {
+        "name": "play_song",
+        "regex": "^(tocar|toque)\\s*(.*)"
+    },
+    {
+        "name": "play midia",
+        "regex": "^(play|plei)\\s+(m[ií]dia|media)"
+    },
+    {
+        "name": "pause midia",
+        "regex": "^((pause|pausar|pausa)\\s+(e\\s+)?(m[ií]dia|media))|((fazer|fa[cç]a) ?sil[eê]ncio)"
+    },
+    {
+        "name": "toggle_play_pause",
+        "regex": "^(play|plei|continuar|continue|pause|pausar|pausa)"
+    },
+    {
+        "name": "next",
+        "regex": "^(pr[oó]xima|pr[oó]ximo|next)\\s*(.*)"
+    },
+    {
+        "name": "previous",
+        "regex": "^(anterior|voltar|volte|previous)\\s*(.*)"
+    },
+    {
+        "name" : "criar lista de tarefas",
+        "regex" : "^(criar|crie|cria|adicionar|adicione|adiciona)\\s+(lista|listas)\\s*(de|da|do)?\\s*(tarefas|tarefa)?"        
+    },
+    {
+        "name" : "remover lista de tarefas",
+        "regex" : "^(remover|remova|remova)\\s+(lista|listas)\\s*(de|da|do)?\\s*(tarefas|tarefa)?"
+    },
+    {
+        "name": "pesquisar",
+        "regex": "^(pesquise|pesquisar)\\s+(.*)"
+    },
+    {
+        "name": "transcrecer",
+        "regex": "^(escrever|escreva|escreve|transcreva|transcrecer|transcri[cç][aã]o)"
+    }
+]
